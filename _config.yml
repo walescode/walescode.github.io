@@ -22,7 +22,9 @@ title: walesworks
 email: nate@walesworks.com
 description: |
   Findings & musings.
-  They\'re likely technical ones.
+  
+  They're likely technical ones.
+  
   Reach out if you like.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://walesworks" # the base hostname & protocol for your site, e.g. http://example.com

@@ -21,7 +21,7 @@
 title: walesworks
 email: nate@walesworks.com
 description: >- # this means to ignore newlines until "baseurl:"
-  "findings & musings\nthey're likely technical ones\nreach out if you like"
+  "Findings & musings\nThey're likely technical ones\nReach out if you like"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://walesworks" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  walescode

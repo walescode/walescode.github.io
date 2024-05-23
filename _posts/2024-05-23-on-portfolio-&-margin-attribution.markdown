@@ -12,15 +12,21 @@ This was a big hit, for obvious reasons; I'll spare you any further cooking-blog
 
 The portfolio's total change in margin, period-over-period, is the sum of the **performance** and **mix** contribution effects for each of its components:
 
-$\Delta TotalMargin =\displaystyle\sum_{0}^n (p_{c0}+m_{c0} ... p_{cn}+m_{cn})$
+```math
+\Delta TotalMargin =\displaystyle\sum_{0}^n (p_{c0}+m_{c0} ... p_{cn}+m_{cn})
+```
 
 A component's performance effect is the product of its change in margin (measured in bps) times its weight in the portfolio in the prior period:
 
-$p_c = \Delta Margin*Weight_{t-1}$
+```math
+p_c = \Delta Margin*Weight_{t-1}
+```
 
 A component's mix effect is the product of its change in weight times the difference between the component's margin and the portfolio's total margin in the current period:
 
-$m_c = \Delta Weight*(ComponentMargin_t-TotalMargin_t)$
+```math
+m_c = \Delta Weight*(ComponentMargin_t-TotalMargin_t)
+```
 
 Now that I've butchered the math notation, let's build a simple example using Python and Pandas:
 
